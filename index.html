@@ -1,4 +1,26 @@
 ---
-layout: default
+layout: stub
 ---
-<h1>Signalot!</h1>
+<div class="video-overlay">
+  <div class="o2">
+  <amp-video loop autoplay noaudio layout="responsive"
+    width="1920" height="1080" poster="/assets/v/bgv2.jpg">
+    <source src="/assets/v/bgv2.webm" type="video/webm" />
+    <source src="/assets/v/bgv2.mp4" type="video/mp4" />
+    <div fallback>
+      <p>This browser does not support the video element.</p>
+    </div>
+  </amp-video>
+  </div>
+</div>
+<!-- <amp-video src="/assests/v/bgv1.mp4" loop autoplay layout="fill" /> -->
+<div class="content-overlay">
+<amp-layout class="panel" layout="container" width="1" height="1">
+  <div class="content">
+    <amp-img alt="Signalot" class="logo" src="/assets/logo.png" width="128" height="128"
+    layout="fixed"></amp-img>
+    <h1>Profitable trading signals is&nbsp;coming</h1>
+    <h3>November 1st we will deliver the most reliable and profitable trading signals</h3>
+  </div>
+</amp-layout>
+</div>
