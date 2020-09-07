@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /app/
+Disallow: /godzilla-july21
+Sitemap: https://signalot.io/sitemap_en.xml
